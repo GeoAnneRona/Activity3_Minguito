@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="activity3.css">
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  <title>Activity3</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+       <a href="#main-container"><figcaption>Delicious Delights Bakery</figcaption></a>
+      </div>
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li style="--i:0"><a href="#about-catering">About</a></li>
+          <li style="--i:1"><a href="#our-menu-main">Menu</a></li>
+          <li style="--i:2"><a href="#contacts">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-container" id="main-container">
+      <div class="hamburg-container">
+        <img src="bakery-background.jpg" alt="Image">
+      </div>
+      <div class="about-catering-main">
+        <div class="image-catering">
+          <input type="checkbox" id="image-property">
+          <label for="image-property">
+              <img src="fresh-baked-goods.jpg" alt="thumb" class="img png">
+          </label>
+          <div class="blur-screen"></div>
+      </div>
+        <div class="about-catering" id="about-catering">
+          <h1>About Our Bakery</h1>
+          <h2>Creating Sweet Memories Since 1990</h2>
+          <p>Delicious Delights Bakery was already here in 1990 with a passion for baking and a dedication to creating mouthwatering treats that bring joy to people's lives. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <span><p>We pride ourselves on using only the finest ingredients and traditional baking techniques to ensure that every bite is a delightful experience for our customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></span>
+        </div>
+        </div>
+      </div>
+      <div class="our-menu-main" id="our-menu-main">
+        <div class="our-menu-container">
+          <div class="our-menu">
+            <h1>Our Menu</h1>
+            <h2>Cupcakes</h2>
+            <p>Assortment of delicious cupcakes in various flavors - $2.50 each</p>
+            <h2>Freshly Baked Bread</h2>
+            <p>Artisanal bread made with love and care - $5.00 per loaf</p>
+            <h2>Custom Cakes</h2>
+            <p>Beautifully decorated custom cakes for any occasion - Prices vary</p>
+            <h2>Pastries</h2>
+            <p>Delectable pastries filled with sweet and savory fillings - $3.00 each</p>
+            <h2>Cookies</h2>
+            <p>Homemade cookies in a variety of flavors - $1.50 each</p>
+          </div>
+          <div class="our-menu-image">
+            <input type="checkbox" id="image-property">
+            <label for="image-property">
+                <img src="fresh-baked-goods.jpg" alt="thumb" class="img png">
+            </label>
+            <div class="blur-screen"></div>
+        </div>
+        </div>
+      </div>
+
+      <div class="contacts" id="contacts">
+        <div class="contact-container">
+          <h1>Contact Us</h1>
+          <p>Whether you're planning a special event or just craving something sweet, Delicious Delights Bakery is here to serve you. We offer a wide range of baked goods made with love and care.</p>
+          <p class="do-nt">Don't hesitate to get in touch!</p>
+          <h2>Delicious Delights Bakery, 123 Baker Street, New York, NY</h2>
+          <p>You can also contact us by phone at 555-123-4567 or email us at info@deliciousdelightsbakery.com. Alternatively, use the form below to send us a message:</p>
+          <input class="contact-design" type="text" id="name" name="name" placeholder="Name" required>
+          
+          <div class="number-input">
+            <input class="contact-design" type="number" id="people" name="people" placeholder="How many people?" min="1">
+          </div>
+          
+          <input class="contact-design" type="date" id="date" name="date" value="2024-03-13" placeholder="Date">
+          <input class="contact-design" type="text" id="message" name="message" placeholder="Message / Special Request"><br>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
